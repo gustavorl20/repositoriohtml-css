@@ -10,38 +10,46 @@
         }
 
         table {
-            font-size: 1.05em;
-            font-weight: bold;
             border-collapse: collapse;
-            width: 200px;
-            border: 1px solid black;
         }
 
-        th, td {
+        th,td {
             border: 1px solid black;
-            padding: 2px;
+            padding: 8px;
         }
 
-        
+        .bord {
+            border-top: 1px;
+            border-right: 1px;
+            border-left: 1px;
+        }
+
+        .dif {
+            margin: 0px;
+        }
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <th>Área</th>
-            <th>Disciplinas</th>
-            <th>
-                <table>
-                    <tr>
-                        <th colspan="2">Notas</th>
-                    </tr>
-                    <tr>
-                        <th>Nota 1</th>
-                        <th>Nota 2</th>
-                    </tr>
-                </table>
-            </th>
-            <th>Média</th>
+            <tr>
+                <th>Área</th>
+                <th>Disciplinas</th>
+                <th>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="bord">Notas</th>
+                            </tr>
+                            <tr style=>
+                                <th class="dif">Nota 1</th>
+                                <th class="dif">Nota 2</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </th>
+                <th>Média</th>
+            </tr>
         </thead>
     </table>
 </body>
