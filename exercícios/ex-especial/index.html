@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revisando HTML e CSS</title>
+    <meta name="description" content="Um site de exemplo do modulo de CSS">
+    <meta name="keywords" content="Agencia Digital, CSS, HTML">
+    <title>Agência Fake Aula</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Meu primeiro site com CSS</h1>
-
-    <div class="container">
-        <div class="div1">Primeira Div</div>
-        <div class="div2">Segunda Div</div>
-        <div class="div3">Terceira Div</div>
-    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Agência Fake</h1>
+        </div>  
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Serviços</a>
+            <a id="botao" href="#">Fale Conosco</a>
+        </div>  
+    </nav>
+    <header class="header">
+        <div class="headline">
+            <h2 style="letter-spacing: 15px;">Você achou a melhor</h2>
+            <h2 style="font-size: 80px;">Agência Digital</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam repellat vero, qui id quae optio veniam sint neque quos libero beatae facere pariatur quam nobis incidunt corporis obcaecati sunt! Quod?</p>
+            <a class="contact-btn" href="#">Contrate Agora</a>
+        </div>
+        <div class="img-headline">
+            <img style="max-width: 90%;" src="imagens/hero_right.png" alt="Logo da empresa">
+        </div>
+    </header>        
 </body>
 </html>
