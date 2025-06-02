@@ -13,8 +13,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    text-align: center;
+    background-color: white;
+    justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -67,6 +70,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+    padding-top: 100px;
 }
 
 .headline {
@@ -163,3 +167,26 @@ section h2 {
     display: block;
 }
 
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A,#090422,black); 
+    text-align: center;
+    border-top: 5px solid #FF2978;   
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;  
+    font-size: 34px;   
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
