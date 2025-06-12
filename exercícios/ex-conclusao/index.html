@@ -7,24 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
-    <form id="survey-form" action=""></form>
-        <label for="name-label"><input id="name-label" type="text" required placeholder=""></label>
-        <label for="email-label"><input id="email-label" type="email" required pattern="" placeholder=""></label>
-        <label for="number-label"><input id="number-label" type="number" required pattern="" min="" max="" placeholder=""></label>
-        <label for="">
-            <select name="" id="dropdown">
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-        </label>
-        <label for=""><input type="radio" name=""></label>
-        <label for=""><input type="radio" name=""></label>
-        <label for=""><input type="checkbox" value=""></label>
-        <label for="">
-            <textarea name="" id=""></textarea>
-        </label>
-        <label for=""><input id="submit" type="submit"></label>
+    <h1 id="title"> Formulário Universo Cinematográfico Marvel</h1>
+    <p id="description">O formulário ideal para você ter certeza se conhece tudo do UCM e relembrar dos melhores momentos desse incrível universo. </p>
+
+    <div id="principal">
+        <form id="survey-form" method="post" action="'https://register-demo.freecodecamp.org'">
+            
+            <fieldset><label for="name-label">Nome <input id="name-label" type="text" required placeholder="Digite seu nome"></label></fieldset>
+
+            <fieldset><label for="email-label">Email <input id="email-label" type="email" required pattern="" placeholder="Digite seu email"></label></fieldset>
+
+            <fieldset><label for="number-label">Idade (opcional)<input id="number-label" type="number" required pattern="" min="" max="" placeholder="Idade"></label></fieldset>
+
+            <fieldset>
+                <label for="dropdown">Qual a melhor opção que descreve a Marvel
+                    <select name="dropdown" id="dropdown" required>
+                        <option disabled selected value>Selecione uma opção</option>
+                        <option value="1">Excepcional</option>
+                        <option value="2">Terrível</option>
+                        <option value="3">Mais ou Menos</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label for=""><input type="radio" name=""></label>
+            <label for=""><input type="radio" name=""></label>
+
+            <label for=""><input type="checkbox" value=""></label>
+
+            <label for="">
+                <textarea name="" id=""></textarea>
+            </label>
+
+            <label for=""><input id="submit" type="submit"></label>
+
+        </form>
+    </div>
 </body>
 </html>
