@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulários</h1>
+    <form method="get" autocomplete="on">
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            
+            <input type="checkbox" name="natacao" id="inatacao"> <label for="inatacao">Natação</label><br>
+
+            <input type="checkbox" name="fut" id="ifut" checked> <label for="ifut">Futebol</label><br>
+
+            <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label><br>
+
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Gênero</legend>
+
+            <input type="radio" name="sexo" id="imascul" checked><label for="imascul">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="ifeminino"> <label for="ifeminino">Feminino</label>
+        </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
