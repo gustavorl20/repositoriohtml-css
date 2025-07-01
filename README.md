@@ -8,12 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Query</title>
-    <link rel="stylesheet" href="estilo/style.css" media="all">
-    <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation: landscape)">
 </head>
 <body>
-    <h1>Mude a orientação do seu dispositivo</h1>
+    <h1>Melhorando meu repositório</h1>
 </body>
 </html>
