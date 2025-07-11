@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.013em;
+}
+
+body {
+    background-color: rgba(229, 234, 234, 0.906);
+}
+
+header {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(to top, #CAE0F5, #D2E8F9, #bed7f1), no-repeat ;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    padding-bottom: 15px;
+    color: #00bfff;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-style: italic;
+    color: #00bfff;
+    font-size: 1.3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img-div {
+    background-color: rgba(19, 18, 18, 0.966);
+    display: block;
+    height: 510px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.img-div > #image {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.descricao {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+    color: #00bfff;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #022447;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+section h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e2e9efd1;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    text-indent: inherit;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.013em;
+    color: #00bfff;;
+}
+
+.metade {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #02a2d8;
+    
+}
+
+.metade img {
+    max-width: 40%;
+    margin-left: 90px;
+}
+
+.frase {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+
+.frase p {
+    color: aliceblue;
+    font-size: 1.7em;
+}
+
+.final {
+    font-size: 1.1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.final a {
+    text-decoration: none;
+    color: #00bfff;
+}
+
+.final a:hover {
+    color: #bed7f1;
+    text-decoration: underline;
+}

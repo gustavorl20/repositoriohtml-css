@@ -1,50 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Satoru Gojo</title>
+    <link rel="stylesheet" href="estilo/styles.css">
 </head>
 <body>
-    <h1 id="title"> Formulário Universo Cinematográfico Marvel</h1>
-    <p id="description">O formulário ideal para você ter certeza se conhece tudo do UCM e relembrar dos melhores momentos desse incrível universo. </p>
-
-    <div id="principal">
-        <form id="survey-form" method="post" action="'https://register-demo.freecodecamp.org'">
-            
-            <fieldset><label for="name-label">Nome <input id="name-label" type="text" required placeholder="Digite seu nome"></label></fieldset>
-
-            <fieldset><label for="email-label">Email <input id="email-label" type="email" required pattern="" placeholder="Digite seu email"></label></fieldset>
-
-            <fieldset><label for="number-label">Idade (opcional)<input id="number-label" type="number" required pattern="" min="" max="" placeholder="Idade"></label></fieldset>
-
-            <fieldset>
-                <label for="dropdown">Qual a melhor opção que descreve a Marvel
-                    <select name="dropdown" id="dropdown" required>
-                        <option disabled selected value>Selecione uma opção</option>
-                        <option value="1">Excepcional</option>
-                        <option value="2">Terrível</option>
-                        <option value="3">Mais ou Menos</option>
-                    </select>
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <legend style="text-align: left;">Qual seus heróis favoritos da Marvel?</legend>
-                <label class="inline" for="Homem de Ferro">Homem de Ferro<input type="radio" name="Homem de Ferro"></label>
-                <label class="inline" for="Capitão América">Capitão América<input type="radio" name="Capitão América"></label>
-            </fieldset>
-
-            <label for=""><input type="checkbox" value=""></label>
-
-            <label for="">
-                <textarea name="" id=""></textarea>
-            </label>
-
-            <label for=""><input id="submit" type="submit"></label>
-
-        </form>
+   <header>
+    <div class="header">
+        <h1 id="title">Satoru Gojo</h1>
+        <p>O feiticeiro mais forte da atualidade e também o mais honrado...</p>
     </div>
+   </header> 
+   <div class="img-div">
+        <img id="image" src="img/gojo-1.jpg" alt="Gojo Satoru em Jujutsu Kaisen 0">
+        <div class="descricao">    
+            <legend id="img-caption">Momento em que o Gojo Satoru desperta o "Roxo" e derrota o Toji Fushiguro.</legend>
+        </div>
+    </div>
+
+    <main id="main">
+        <section id="tribute-info">
+            <h2>Quem é Gojo Satoru?</h2>
+            <p>
+               Gojo Satoru é o feiticeiro jujutsu mais poderoso do mundo de Jujutsu Kaisen. Nascido em 1989, ele é professor da Escola Técnica de Jujutsu de Tóquio e domina a técnica amaldiçoada do Ilimitado junto com os lendários Seis Olhos.
+            </p>
+        </section>
+        
+        <section id="biografia">
+            <h2>Técnicas Especias</h2>
+            <p>
+                <ul>
+                    <li><strong>Limitless</strong>: Manipulação do espaço infinito ao seu redor.</li>
+
+                    <li><strong>Infinity</strong>: Cria uma barreira intangível entre ele e o inimigo.</li>
+
+                    <li><strong>Hollow Purple</strong>: Um ataque destrutivo que combina duas forças opostas.</li>
+
+                    <li><strong>Infinty Domain</strong>: Expansão de domínio que sobrecarrega os sentidos do oponente.</li>
+                </ul>
+            </p>
+        </section> 
+        
+        <section id="biografia">
+            <h2>Linha do Tempo</h2>
+            <p>
+                <ul>
+                    <li><strong>1989:</strong> Nascimento de Gojo.</li>
+                    <li><strong>2006:</strong> Matriculado na Escola Técnica Jujutsu.</li>
+                    <li><strong>2018:</strong> Torna-se professor e mentor de Itadori, Megumi e Nobara.</li>
+                    <li><strong>2023:</strong> Enfrenta Sukuna em uma batalha histórica.</li>
+                </ul>
+            </p>
+        </section>    
+    </main>
+
+    <footer>
+        <div class="metade">
+            <img src="img/gojo-2.jpg" alt="O fodão Gojo Satoru">
+
+            <div class="frase">
+                <p>"Eu vou ficar bem. Afinal, eu sou o mais forte que existe."</p>
+            </div>
+        </div>
+
+        <div class="final">
+            <p>
+                Para mais informaçãoes sobre o mais honrado, acesse <a id="tribute-link" href="https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Kaisen" target="_blank"> Jujutsu Fandom</a>. Até mais!!
+            
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
